@@ -22,35 +22,3 @@ Le notebook compare la régression logistique, le Gradient Boosting et Extra Tre
 
 Les modèles sont évalués sur un ensemble de validation, notamment avec le rappel macro.
 
-## Instructions d’exécution
-
-Exécutez les commandes depuis le dossier contenant ce README.
-
-### 1. Créer un environnement virtuel
-
-```bash
-python -m venv venv
-```
-
-Activez-le sous macOS ou Linux :
-
-```bash
-source venv/bin/activate
-```
-
-Sous Windows, dans l’invite de commandes :
-
-```bat
-venv\Scripts\activate
-```
-
-### 2. Installer les dépendances
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 3. Ouvrir le notebook
-
-Ouvrez `notebookv1.ipynb` dans VS Code ou Jupyter, sélectionnez l’environnement virtuel et exécutez les cellules dans l’ordre depuis le dossier du projet.
-
